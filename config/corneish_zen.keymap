@@ -60,8 +60,8 @@
 
             bindings = <
 &trans  &kp N1           &kp N2          &kp N3             &kp N4            &kp N5             &kp N6           &kp N7           &kp N8           &kp N9           &kp N0            &kp BSPC
-&trans  &bt BT_CLR_ALL   &bt BT_SEL 0    &bt BT_SEL 1       &kp C_VOL_DN      &kp C_VOL_UP       &rgb_ug RGB_BRD  &kp HOME         &kp UP           &kp END          &rgb_ug RGB_BRI   &kp PG_UP
-&trans  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &ext_power EP_OFF  &ext_power EP_ON  &rgb_ug RGB_EFF    &rgb_ug RGB_EFR  &kp LEFT         &kp DOWN         &kp RIGHT        &rgb_ug RGB_BRI   &kp PG_DN
+&trans  &bt BT_CLR_ALL   &bt BT_SEL 0    &bt BT_SEL 1       &kp C_VOL_DN      &kp C_VOL_UP       &kp HOME         &kp UP           &kp END          &rgb_ug RGB_BRD  &rgb_ug RGB_BRI   &kp PG_UP
+&trans  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &ext_power EP_OFF  &ext_power EP_ON  &rgb_ug RGB_EFF    &kp LEFT         &kp DOWN         &kp RIGHT        &rgb_ug RGB_EFR  &rgb_ug RGB_BRI   &kp PG_DN
                                          &trans             &trans            &trans             &kp INS          &kp DEL          &trans
             >;
         };
